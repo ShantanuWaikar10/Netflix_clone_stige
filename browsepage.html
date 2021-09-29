@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="browsepage.css">
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo"><img src="logo.png"></a>
+        <ul class="navigation">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Films</a></li>
+        </ul>
+    </header>
+    <div class="banner">
+        <img src="joker_background.jpg" class="bg">
+        <div class="content">
+            <h4>Watch Joker Now</h4>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia unde eaque suscipit inventore dolorem dignissimos nulla ratione mollitia repellendus deserunt.</p>
+            <div class="button">
+                <a href="#"></a><i class="fa fa-play" aria-hidden="true"></i>Watch Trailer</a>
+            </div>
+        </div>
+        <a class="play" onclick="toggleVideo();"><img src="play.png">Play</a>
+    </div>
+    <div class="trailer">
+        <video src="video.mp4" controls="true"></video>
+        <img src="close.png" class="close" onclick="toggleVideo();">
+    </div>
+    <div class="row">
+        <h2>NETFILX ORIGINALS</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie1.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie2.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie3.jpg" alt="" class="row__poster row__posterLarge">
+            <img src="large-movie4.jpg" alt="" class="row__poster row__posterLarge">
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Trending Now</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Top rated</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Action Movies</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Comedy Movies</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Horror movies</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <div class="row">
+        <h2>Romance movies</h2>
+        <div class="row__posters">
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+            <img src="large-movie1.jpg" alt="" class="row__poster"/>
+            <img src="large-movie2.jpg" alt="" class="row__poster"/>
+            <img src="large-movie3.jpg" alt="" class="row__poster"/>
+            <img src="large-movie4.jpg" alt="" class="row__poster"/>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Questions? Call +91 7218202632</p>
+        <div class="footer-cols">
+            <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Ways To Watch</a></li>
+                <li><a href="#">Corporate Information</a></li>
+                <li><a href="#">Netflix Originals</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Help Center</a></li>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Terms Of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Account</a></li>
+                <li><a href="#">Redeem Gift Cards</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Speed Test</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Media Center</a></li>
+                <li><a href="#">Buy Gift Cards</a></li>
+                <li><a href="#">Cookie Preferences</a></li>
+                <li><a href="#">Legal Notices</a></li>
+            </ul>
+        </div>
+
+    </footer>
+
+    <script>
+        function toggleVideo(){
+            const trailer = document.querySelector('.trailer');
+            const video = document.querySelector('video')
+            trailer.classList.toggle('active')
+            video.currentTime = 0;
+            video.pause();
+        }
+    </script>
+</body>
+</html>
